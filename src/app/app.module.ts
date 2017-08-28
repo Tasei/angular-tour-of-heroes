@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
 
 import { AppComponent } from './app.component';
+import { HeroDetailComponent } from './hero-detail.component';
 
 @NgModule({
   
@@ -12,9 +13,10 @@ import { AppComponent } from './app.component';
   ],
 
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroDetailComponent
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
